@@ -2,7 +2,7 @@
 
 Curated US cable live TV playlist (M3U) + programme guide (XMLTV), built 2026-11-20 from iptv-org's US list.
 
-- 58 channels, each verified live that day (returned a valid .m3u8)
+- 52 channels, each verified live (returned a valid .m3u8) — streaming-only news channels removed 2026-11-20 (NBC News NOW, ABC News Live, Fox Weather, AccuWeather NOW, Law & Crime, Scripps News)
 - Real cable channels only: Sports, News, Entertainment, Kids, Spanish
 - No Pluto FAST single-show / throwback playlist channels, no local affiliates
 - Hoosiers coverage: Big Ten Network, ESPN, ESPN2, ESPNU, FS1, ABC
@@ -23,9 +23,9 @@ https://raw.githubusercontent.com/Garrietta/US-Cable-Live/main/US-Cable-Live-EPG
 
 ## Guide
 
-- 54 of the 58 channels have listings (9,372 programmes, Nov 19–27, 2026)
-- Built from EPGTalk (Schedules Direct) and EPGShare US2, with channel IDs rewritten to match this playlist's `tvg-id`s
-- No guide data exists in those sources for: Fox Weather, NBC News NOW, Hallmark Movies & More, Adult Swim
+- 51 of the 52 channels have listings (9,145 programmes, Nov 19–27, 2026)
+- Built from EPGTalk (Schedules Direct) and EPGShare US2, with channel IDs rewritten to match this playlist's `tvg-id`s. Adult Swim has no separate guide feed anywhere — its listings are Cartoon Network's 5pm–6am ET block (22:00–11:00 UTC), sliced out of Cartoon Network's guide
+- No guide data exists in those sources for: Hallmark Movies & More (only channel without listings)
 
 ## Caveats
 
